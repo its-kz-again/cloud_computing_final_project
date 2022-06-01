@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: server-config
+data:
+  info-config.json: |
+   {
+    	"port": 8080,
+    	"expire_time": 45,
+    	"hostname": "mongo-svc"
+   }
